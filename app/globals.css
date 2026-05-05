@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --navy: #0C1A2E;
+  --navy-dark: #0a1525;
+  --navy-deeper: #060F1C;
+  --gold: #F5A623;
+  --gold-light: #FFF3D6;
+  --blue-muted: #B5D4F4;
+  --text-light: rgba(255, 255, 255, 0.85);
+  --border-subtle: rgba(255, 255, 255, 0.07);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  background: #fff;
+  color: #111;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+input, textarea, select {
+  font-family: inherit;
+}
